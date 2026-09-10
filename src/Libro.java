@@ -2,13 +2,13 @@ public class Libro {
 
     private String titulo;
     private String autor;
-    private int codigo;
+    private String codigo;
     private String genero;
     private int publicacion;
     private  int copiasDisponibles;
 
 
-    public Libro (String titulo, String autor, int codigo, String genero, int publicacion, int copiasDisponibles){
+    public Libro (String titulo, String autor, String codigo, String genero, int publicacion, int copiasDisponibles){
 
         this.titulo = titulo;
         this.autor = autor;
@@ -36,12 +36,12 @@ public class Libro {
         this.autor = autor;
     }
 
-    public int getCodigo(){
+    public String getCodigo(){
         return codigo;
 
     }
 
-    public void setCodigo(int codigo){
+    public void setCodigo(String codigo){
         this.codigo = codigo;
     }
 
