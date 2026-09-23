@@ -15,6 +15,10 @@ public class Biblioteca {
             "Poesía"
     };
 
+    public String[] getGeneros() {
+        return generos;
+    }
+
     private HashMap<String, ArrayList<Libro>> librosAutor;
 
     public Biblioteca() {
